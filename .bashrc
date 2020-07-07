@@ -6,7 +6,7 @@ export PATH="$PATH:$GOPATH/bin"
 export PATH=$PATH:/usr/local/go/bin
 
 # Path to your oh-my-bash installation.
-export OSH=/home/colibier/git/public/oh-my-bash
+export OSH=$HOME/git/public/oh-my-bash
 
 
 # Set name of the theme to load. Optionally, if you set this to "random"
