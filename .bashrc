@@ -5,6 +5,7 @@ alias syncdotfiles='rsync --recursive --verbose --exclude '.git' ~/git/clnrmn/do
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:~/bin
 
 # Path to your oh-my-bash installation.
 export OSH=$HOME/git/public/oh-my-bash
