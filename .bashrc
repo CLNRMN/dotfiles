@@ -9,7 +9,11 @@ export PATH=$PATH:~/bin
 
 # Path to your oh-my-bash installation.
 export OSH=$HOME/git/public/oh-my-bash
-
+# Tilix 
+# https://gnunn1.github.io/tilix-web/manual/vteconfig/
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
