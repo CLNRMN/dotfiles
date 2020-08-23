@@ -2,6 +2,7 @@
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 alias syncdotfiles='rsync --recursive --verbose --exclude '.git' ~/git/clnrmn/dotfiles/ ~'
+alias open='xdg-open'
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
 export PATH=$PATH:/usr/local/go/bin
